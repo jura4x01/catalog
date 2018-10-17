@@ -131,10 +131,6 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
-EASY_MAPS_GOOGLE_MAPS_API_KEY = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ___0123456789'
-EASY_MAPS_GEOCODE = 'example.custom_geocode'
-EASY_MAPS_CENTER = (-41.3, 32)
-
 CURRENT_PATH = os.path.abspath(os.path.dirname(__file__))
 
 MEDIA_ROOT = os.path.join(CURRENT_PATH, 'media').replace('\\', '/')

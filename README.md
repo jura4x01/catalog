@@ -1,19 +1,17 @@
 # catalog
-Python3.6, Django, Djangorestframework, PostGIS, jQuery, Docker-compose
+Python3.6, Django2.1.2, Djangorestframework, PostGIS, Openlayers, jQuery, Docker-compose
 
-Create a Simple Django Application 
-Environment: Python 3.x, Django 2.x, PostgreSQL 
 The task is to create a simple Django application that satisfies the following requirements. 
  
 1. Create a personnel model. It should consist of: 
-● First name; 
-● Last name; 
-● Position title. 
+ - First name; 
+ - Last name; 
+ - Position title. 
  
 2. Create a branch model which should consist of: 
-● Branch name; 
-● Facade image (uploading to S3 is a preferred option); 
-● Latitude and Longitude (coordinates of the branch office). A user should be able to fill 
+ - Branch name; 
+ - Facade image (uploading to S3 is a preferred option); 
+ - Latitude and Longitude (coordinates of the branch office). A user should be able to fill 
 them in two ways: by typing values in the text boxes or by pointing a location on a 
 map (e.g. Google Maps, but every provider would suffice) with subsequent 
 autocompletion of the latitude and longitude fields. 
