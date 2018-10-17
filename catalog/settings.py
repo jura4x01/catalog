@@ -83,6 +83,7 @@ DATABASES = {
         'USER': 'catalog',
         'PASSWORD': 'catalog',
         'HOST': 'postgis',
+        # 'HOST': 'localhost',
         'PORT': '5432',
     }
 }

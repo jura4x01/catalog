@@ -8,5 +8,5 @@ class PersonnelViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows Personnels to be viewed or edited.
     """
-    queryset = Personnel.objects.all().order_by('-date_joined')
+    queryset = Personnel.objects.all()
     serializer_class = PersonnelSerializer
